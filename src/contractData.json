@@ -1,0 +1,58 @@
+{
+  "address": "0x1b72C6105f0fed6001aC70D00Df5ce8D5229A75F",
+  "interface": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "payToSatisfyCuriosity",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function",
+      "signature": "0x7033f906"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "minimumAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "changeMinimumAmount",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x77eab3e3"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "findHowManyPeoplePayed",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xbcf1798d"
+    },
+    {
+      "inputs": [
+        {
+          "name": "minimumAmount",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    }
+  ],
+  "amountToPay": "9000000000000000"
+}
