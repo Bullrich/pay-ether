@@ -1,13 +1,13 @@
 {
-  "main.css": "/pay-ether/static/css/main.bce40508.chunk.css",
-  "main.js": "/pay-ether/static/js/main.c24db698.chunk.js",
-  "main.js.map": "/pay-ether/static/js/main.c24db698.chunk.js.map",
-  "static/js/1.015898a8.chunk.js": "/pay-ether/static/js/1.015898a8.chunk.js",
-  "static/js/1.015898a8.chunk.js.map": "/pay-ether/static/js/1.015898a8.chunk.js.map",
-  "runtime~main.js": "/pay-ether/static/js/runtime~main.88324479.js",
-  "runtime~main.js.map": "/pay-ether/static/js/runtime~main.88324479.js.map",
-  "static/css/main.bce40508.chunk.css.map": "/pay-ether/static/css/main.bce40508.chunk.css.map",
-  "index.html": "/pay-ether/index.html",
-  "precache-manifest.b90a5db9c149c29595bd619858cb75d0.js": "/pay-ether/precache-manifest.b90a5db9c149c29595bd619858cb75d0.js",
-  "service-worker.js": "/pay-ether/service-worker.js"
+  "main.css": "/static/css/main.bce40508.chunk.css",
+  "main.js": "/static/js/main.5cb80c14.chunk.js",
+  "main.js.map": "/static/js/main.5cb80c14.chunk.js.map",
+  "static/js/1.015898a8.chunk.js": "/static/js/1.015898a8.chunk.js",
+  "static/js/1.015898a8.chunk.js.map": "/static/js/1.015898a8.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.bce40508.chunk.css.map": "/static/css/main.bce40508.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.9dceba51bfb277d56e9117c8797c0533.js": "/precache-manifest.9dceba51bfb277d56e9117c8797c0533.js",
+  "service-worker.js": "/service-worker.js"
 }
