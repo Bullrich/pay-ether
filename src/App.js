@@ -53,9 +53,10 @@ class App extends Component {
         switch (modal) {
             case MODAL_NO_METAMASK:
                 modalMessage = (<div>
-                    <h3 className='Subtitle'>You need MetaMask to realize a transaction</h3>
+                    <h3 className='Subtitle'>You need MetaMask to perform a transaction</h3>
                     You need it to interact with a Dapps.<br/>
-                    Please, intall it <a href='https://metamask.io/' target='_blank'>using this link</a>
+                    Please, install it <a href='https://metamask.io/' target='_blank' rel='noopener noreferrer'>using
+                    this link</a>
                 </div>);
                 break;
             case MODAL_PAID:
@@ -70,7 +71,7 @@ class App extends Component {
     }
 
     async satisfyCuriosity() {
-        if(this.state.loading)
+        if (this.state.loading)
             return;
         this.setState({
             message: 'Loading, operations take about 15 seconds to complete.',

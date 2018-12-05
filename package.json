@@ -2,6 +2,7 @@
   "name": "pay1crypto",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bullrich.github.io/pay-ether",
   "dependencies": {
     "react": "^16.6.3",
     "react-awesome-modal": "^2.0.5",
@@ -15,7 +16,8 @@
     "test": "mocha",
     "eject": "react-scripts eject",
     "compile": "node ethereum/compile.js",
-    "deploy": "node ethereum/deploy.js"
+    "deploy-contract": "node ethereum/deploy.js",
+    "deploy-site": "react-scripts build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +30,7 @@
   ],
   "devDependencies": {
     "ganache-cli": "^6.2.3",
+    "gh-pages": "^2.0.1",
     "mocha": "^5.2.0",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "^0.0.6"
